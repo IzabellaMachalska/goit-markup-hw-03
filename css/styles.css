@@ -11,6 +11,7 @@
   --text-color-blue: #2196f3;
   --text-color-light: #ffffff;
   --text-color-contact-footer: rgba(255, 255, 255, 0.6);
+  --border-bottom-color: #ececec;
 }
 * {
   margin: 0;
@@ -153,3 +154,17 @@ body {
 .light-primary {
   background-color: var(--background-page-color);
 }
+.section {
+  padding: 94px 0;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* .link-item {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(var(--border-bottom-color));
+} */
