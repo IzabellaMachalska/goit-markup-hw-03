@@ -21,12 +21,18 @@
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <!--Główne linki strony-->
-      <div class="container">
-        <nav>
-          <a class="logo" href="./index.html"> Web<span class="logo-color">Studio</span></a>
-          <ul>
+    <!-- sekcja MENU -->
+    <header class="header-border>">
+      <!--Logo-->
+      <section class="container head">
+        <div class="navi-logo">
+          <a class="logo" href="./index.html">
+            Web<span class="logo-color">Studio</span></a
+          >
+        </div>
+        <!-- Linki nawigacyjne -->
+        <nav class="navi-link">
+          <ul class="navigation">
             <li>
               <a class="link-navi" href="./index.html">Agencja</a>
             </li>
@@ -37,28 +43,31 @@
           </ul>
         </nav>
         <!-- linki kontakt-->
-        <ul>
-          <li>
-            <a class="link-contact" href="mailto:info@devstudio.com">info@devstudio.com </a>
-          </li>
-          <li>
-            <a class="link-contact" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </div>
+
+        <div>
+          <ul class="navi-contact">
+            <li>
+              <a class="link-contact" href="mailto:info@devstudio.com">info@devstudio.com </a>
+            </li>
+            <li>
+              <a class="link-contact" href="tel:+48111111111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </header>
-    <main>
+    <main class="container">
       <!--Header-->
       <section class="dark section">
         <div class="container">
           <h1 class="headline-primary">EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
-          <button class="button-headline button-headline-tex" type="button">Zamów usługe</button>
+          <button class="button-headline" type="button">Zamów usługe</button>
         </div>
       </section>
       <!--Nasze atuty-->
       <section class="section">
         <div class="container">
-          <ul>
+          <ul class="description-item">
             <li>
               <h3 class="headline-feature">LOREM IPSUM</h3>
               <p class="description">
@@ -94,7 +103,7 @@
       <section class="section">
         <div class="container">
           <h2 class="headline-secondary">Czym się zajmujemy</h2>
-          <ul>
+          <ul class="headline-secondary-items">
             <li>
               <img src="./images/main1.jpg" width="370" height="294" alt="Kodowanie programu" />
             </li>
@@ -163,12 +172,10 @@
             >
           </li>
           <li>
-            <a class="link-contact-footer-email" href="mailto:info@devstudio.com"
-              >info@devstudio.com
-            </a>
+            <a class="link-contact-footer" href="mailto:info@devstudio.com">info@devstudio.com </a>
           </li>
           <li>
-            <a class="link-contact-footer-tel" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="link-contact-footer" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
       </div>
