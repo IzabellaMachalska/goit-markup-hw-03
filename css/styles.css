@@ -182,7 +182,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  padding-top: 94px;
+  margin-bottom: 50px;
 }
 .headline-team {
   color: var(--text-color-primary);
@@ -253,7 +253,7 @@ body {
   background: var(--background-button);
   color: var(--text-color-light);
 }
-.testsiatka {
+.main-por {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
