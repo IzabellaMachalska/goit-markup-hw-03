@@ -140,10 +140,8 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-  width: 200px;
-  height: 50px;
   padding: 10px 41px;
-}
+  }
 /* NASZE ATUTY */
 .asset {
   display: flex;
@@ -196,12 +194,11 @@ body {
   font-size: 16px;
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 30px;
 }
 .light-primary {
   background-color: var(--background-page-color);
-  width: 270px;
-  height: 368px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
