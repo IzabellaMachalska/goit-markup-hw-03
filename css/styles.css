@@ -163,6 +163,12 @@ body {
   font-size: 14px;
   padding-top: 10px;
 }
+/* SEKCJA CZYM SIE ZAJMUJEMY */
+.headline-secondary-items {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
 /* SEKCJA NASZ ZESPÓŁ */
 .team-list {
   display: flex;
@@ -245,32 +251,26 @@ body {
   background: var(--background-button);
   color: var(--text-color-light);
 }
+.testsiatka {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 .headline-main-por {
   color: var(--text-color-primary);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  padding: 20px 24px 4px;
 }
 .descripion-main-por {
   color: var(--text-color-secondary);
   font-size: 16px;
   line-height: 1.9;
+  padding: 4px 24px 20px;
 }
-.testsiatka {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  flex-basis: calc(100%-60px) 3;
-}
-/* .siatka-border {
-  width: 370px;
-  height: 404px;
-  gap: 30px;
-  border: 1px solid var(--border-bottom-color-main-por);
-} */
 
-.headline-secondary-items {
-  display: flex;
-  gap: 30px;
-  margin-top: 50px;
+.list-main-por {
+  border: 1px solid var(--border-bottom-color-main-por);
+  flex-basis: calc((100% - 60px) / 3);
 }
