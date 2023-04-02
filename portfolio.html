@@ -21,12 +21,16 @@
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <!--Główne linki strony-->
-      <div class="container">
-        <nav>
+    <!-- sekcja MENU -->
+    <header class="header-border">
+      <!--Logo-->
+      <section class="container head">
+        <div class="navi-logo">
           <a class="logo" href="./index.html"> Web<span class="logo-color">Studio</span></a>
-          <ul>
+        </div>
+        <!-- Linki nawigacyjne -->
+        <nav class="navi-link">
+          <ul class="navigation">
             <li>
               <a class="link-navi" href="./index.html">Agencja</a>
             </li>
@@ -37,15 +41,18 @@
           </ul>
         </nav>
         <!-- linki kontakt-->
-        <ul>
-          <li>
-            <a class="link-contact" href="mailto:info@devstudio.com">info@devstudio.com </a>
-          </li>
-          <li>
-            <a class="link-contact" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </div>
+
+        <div>
+          <ul class="navi-contact">
+            <li>
+              <a class="link-contact" href="mailto:info@devstudio.com">info@devstudio.com </a>
+            </li>
+            <li>
+              <a class="link-contact" href="tel:+48111111111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </header>
     <main>
       <!-- Header buttons -->
@@ -58,7 +65,9 @@
             <li><button class="button-primary-portfolio" type="button">Dizajn</button></li>
             <li><button class="button-primary-portfolio" type="button">Marketing</button></li>
           </ul>
-          <!-- Elements Wszystkie -->
+        </div>
+        <!-- Elements Wszystkie -->
+        <div class="container">
           <ul class="testsiatka">
             <li>
               <img src="images/portfolio1.jpg" width="370" height="294" alt="ludzie" />
@@ -110,10 +119,10 @@
       </section>
     </main>
     <!--Stopka-->
-    <footer class="dark">
+    <footer class="footer">
       <div class="container">
         <a class="logo" href="./index.html"> Web<span class="logo-color-footer">Studio</span></a>
-        <ul>
+        <ul class="link-footer">
           <li>
             <a
               class="link-address-footer"

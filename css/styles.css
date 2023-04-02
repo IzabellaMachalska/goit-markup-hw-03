@@ -12,6 +12,7 @@
   --text-color-light: #ffffff;
   --text-color-contact-footer: rgba(255, 255, 255, 0.6);
   --border-bottom-color: #ececec;
+  --border-bottom-color-main-por: #eeeeee;
 }
 * {
   margin: 0;
@@ -141,19 +142,32 @@ body {
   height: 50px;
   padding: 10px 41px;
 }
-.headline-feature {
+/* NASZE ATUTY */
+.asset {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 101px;
+  width: 1170px;
+  height: 101px;
+}
+.headline-asset {
   color: var(--text-color-primary);
   font-weight: 700;
   line-height: 1.1;
   font-size: 14px;
   text-transform: uppercase;
 }
-.description {
+.asset-description {
   color: var(--text-color-secondary);
   line-height: 1.7;
   font-size: 14px;
   padding-top: 10px;
-  column-gap: 30px;
+}
+/* SEKCJA NASZ ZESPÓŁ */
+.team-list {
+  display: flex;
+  gap: 30px;
+  padding-top: 50px;
 }
 .headline-secondary {
   color: var(--text-color-primary);
@@ -167,11 +181,35 @@ body {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
+  padding-top: 30px;
 }
 .team-descripion {
   color: var(--text-color-secondary);
   font-size: 16px;
   text-align: center;
+  padding-top: 10px;
+}
+.light-primary {
+  background-color: var(--background-page-color);
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.light-secondary {
+  background-color: var(--background-box-secondary);
+}
+/* SEKCJA STOPKA */
+.footer {
+  background-color: var(--background-box-primary);
+  padding-top: 60px;
+}
+.link-footer {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 8px;
 }
 .link-contact-footer {
   color: var(--text-color-contact-footer);
@@ -180,6 +218,14 @@ body {
 .link-address-footer {
   color: var(--text-color-light);
   line-height: 1.7;
+}
+/* KARTA POTFOLIO */
+.testline {
+  display: flex;
+  gap: 8px;
+  padding-top: 94;
+  padding-bottom: 50px;
+  justify-content: center;
 }
 .button-primary-portfolio {
   font-family: var(--font-primary);
@@ -210,39 +256,21 @@ body {
   font-size: 16px;
   line-height: 1.9;
 }
-/* .dark {
-  background-color: var(--background-box-primary);
-} */
-.light-secondary {
-  background-color: var(--background-box-secondary);
-}
-.light-primary {
-  background-color: var(--background-page-color);
-}
-
-/* .link-item {
-  display: flex;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid var(var(--border-bottom-color));
-} */
 .testsiatka {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: center;
   flex-basis: calc(100%-60px) 3;
-  padding: 193px, 219px, 83px, 211px;
 }
-
-/*loren ipson */
-.description-item {
-  display: flex;
-  justify-content: space-between;
-}
+/* .siatka-border {
+  width: 370px;
+  height: 404px;
+  gap: 30px;
+  border: 1px solid var(--border-bottom-color-main-por);
+} */
 
 .headline-secondary-items {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
   margin-top: 50px;
 }
