@@ -24,13 +24,15 @@
     <!-- sekcja MENU -->
     <header class="header-border">
       <!--Logo-->
-      <section class="container head">
-        <div class="navi-logo">
-          <a class="logo" href="./index.html"> Web<span class="logo-color">Studio</span></a>
-        </div>
+      <div class="container container-header">
+        <nav>
+          <div class="navi-logo">
+            <a class="logo" href="./index.html"> Web<span class="logo-color">Studio</span></a>
+          </div>
+        </nav>
         <!-- Linki nawigacyjne -->
-        <nav class="navi-link">
-          <ul class="navigation">
+        <nav>
+          <ul class="navi-link">
             <li>
               <a class="link-navi" href="./index.html">Agencja</a>
             </li>
@@ -41,18 +43,15 @@
           </ul>
         </nav>
         <!-- linki kontakt-->
-
-        <div>
-          <ul class="navi-contact">
-            <li>
-              <a class="link-contact" href="mailto:info@devstudio.com">info@devstudio.com </a>
-            </li>
-            <li>
-              <a class="link-contact" href="tel:+48111111111">+48 111 111 111</a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        <ul class="navi-contact">
+          <li>
+            <a class="link-contact" href="mailto:info@devstudio.com">info@devstudio.com </a>
+          </li>
+          <li>
+            <a class="link-contact" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <!--Header-->
@@ -61,7 +60,7 @@
         <button class="button-headline" type="button">Zamów usługe</button>
       </section>
       <!--Nasze atuty-->
-      <section class="section">
+      <section class="section-asset">
         <div class="container">
           <ul class="asset">
             <li>
@@ -99,7 +98,7 @@
       <section class="section">
         <div class="container">
           <h2 class="headline-secondary">Czym się zajmujemy</h2>
-          <ul class="headline-secondary-items">
+          <ul class="whatwedo-list">
             <li>
               <img src="./images/main1.jpg" width="370" height="294" alt="Kodowanie programu" />
             </li>
@@ -156,25 +155,31 @@
     </main>
     <!--Stopka-->
     <footer class="footer">
-      <div class="container">
-        <a class="logo" href="./index.html"> Web<span class="logo-color-footer">Studio</span></a>
-        <ul class="link-footer">
-          <li>
-            <a
-              class="link-address-footer"
-              href="https://goo.gl/maps/Stigg4ToWFLJtS73A"
-              target="_blank"
-              >m. Warszawa, Aleje Jerozolimskie 21</a
-            >
-          </li>
-          <li>
-            <a class="link-contact-footer" href="mailto:info@devstudio.com">info@devstudio.com </a>
-          </li>
-          <li>
-            <a class="link-contact-footer" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </div>
+      <nav>
+        <div class="container">
+          <a class="logo" href="./index.html"> Web<span class="logo-color-footer">Studio</span></a>
+          <address>
+            <ul class="link-footer">
+              <li>
+                <a
+                  class="link-address-footer"
+                  href="https://goo.gl/maps/Stigg4ToWFLJtS73A"
+                  target="_blank"
+                  >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li>
+                <a class="link-contact-footer" href="mailto:info@devstudio.com"
+                  >info@devstudio.com
+                </a>
+              </li>
+              <li>
+                <a class="link-contact-footer" href="tel:+48111111111">+48 111 111 111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </nav>
     </footer>
   </body>
 </html>
