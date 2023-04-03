@@ -43,7 +43,6 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
 }
 /* SEKCJA MENU */
 .logo {
@@ -73,6 +72,7 @@ body {
 .link-contact {
   color: var(--text-color-secondary);
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.1;
   display: block;
   width: max-content;
@@ -102,7 +102,6 @@ body {
   padding-bottom: 32px;
 }
 .navigation {
-  list-style: none;
   display: flex;
   gap: 46px;
   padding-right: 371px;
@@ -131,7 +130,6 @@ body {
 .button-headline {
   font-family: var(--font-primary);
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.9;
   background: var(--background-button);
   color: var(--text-color-light);
@@ -141,14 +139,14 @@ body {
   border-radius: 4px;
   border: none;
   padding: 10px 41px;
-  }
+}
 /* NASZE ATUTY */
 .asset {
   display: flex;
   justify-content: space-between;
-  padding-top: 101px;
-  width: 1170px;
-  height: 101px;
+  /* margin-top: 101px;
+  padding: 0; */
+  border: 3px solid #212121;
 }
 .headline-asset {
   color: var(--text-color-primary);
@@ -185,20 +183,18 @@ body {
 .headline-team {
   color: var(--text-color-primary);
   font-weight: 500;
-  font-size: 16px;
   text-align: center;
   padding-top: 30px;
 }
 .team-descripion {
   color: var(--text-color-secondary);
-  font-size: 16px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 30px;
 }
 .light-primary {
   background-color: var(--background-page-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -212,23 +208,25 @@ body {
 }
 .link-footer {
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  gap: 8px;
+  padding: 20px 0;
 }
 .link-contact-footer {
   color: var(--text-color-contact-footer);
+  font-size: 14px;
   line-height: 1.7;
+  margin-top: 9px;
 }
 .link-address-footer {
   color: var(--text-color-light);
+  font-size: 14px;
   line-height: 1.7;
+  margin-bottom: 9px;
 }
 /* KARTA POTFOLIO */
 .testline {
   display: flex;
   gap: 8px;
-  padding-top: 94;
+  padding-top: 94px;
   padding-bottom: 50px;
   justify-content: center;
 }
@@ -264,7 +262,6 @@ body {
 }
 .descripion-main-por {
   color: var(--text-color-secondary);
-  font-size: 16px;
   line-height: 1.9;
   padding: 4px 24px 20px;
 }
