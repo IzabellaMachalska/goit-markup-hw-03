@@ -112,7 +112,6 @@ body {
   gap: 30px;
   padding: 200px 0;
 }
-
 .headline-primary {
   color: var(--text-color-light);
   font-weight: 900;
@@ -156,15 +155,12 @@ body {
   padding-top: 10px;
 }
 /* SEKCJA CZYM SIE ZAJMUJEMY */
-.whatwedo-list {
-  display: flex;
-  gap: 30px;
-  }
-/* SEKCJA NASZ ZESPÓŁ */
+.whatwedo-list,
 .team-list {
   display: flex;
   gap: 30px;
   }
+/* SEKCJA NASZ ZESPÓŁ */
 .headline-secondary {
   color: var(--text-color-primary);
   font-weight: 700;
