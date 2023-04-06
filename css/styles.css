@@ -55,6 +55,9 @@ body {
   height: 80px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo {
   color: var(--text-color-blue);
@@ -64,25 +67,15 @@ body {
 .logo-color {
   color: var(--text-color-primary);
 }
-.navi-logo {
-  padding-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-.navi-link .navi-contact {
-  padding: 32px 0;
-}
-
 .navi-link {
   display: flex;
   gap: 46px;
-  padding-right: 371px;
-  }
+}
 
 .navi-contact {
   display: flex;
   gap: 50px;
-  }
+}
 .link-contact {
   color: var(--text-color-secondary);
   font-weight: 500;
@@ -107,14 +100,13 @@ body {
 /* SEKCJA HERO */
 .hero-main {
   background-color: var(--background-box-primary);
-  display: block;
   padding: 200px 0;
+  text-align: center;
 }
 .headline-primary {
   color: var(--text-color-light);
   max-width: 696px;
   font-weight: 900;
-  text-align: center;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
@@ -133,16 +125,12 @@ body {
   border-radius: 4px;
   border: none;
   padding: 10px 41px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
   margin-top: 30px;
 }
 /* NASZE ATUTY */
 .asset {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0;
   gap: 30px;
 }
 .headline-asset {
@@ -239,9 +227,11 @@ body {
 .button-primary-portfolio:focus {
   background: var(--background-button);
   color: var(--text-color-light);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .main-por {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
   flex-basis: calc((100% - 60px) / 3);
